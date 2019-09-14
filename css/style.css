@@ -1,0 +1,60 @@
+*,body {
+    padding: 0;
+	margin: 0;
+	#color: white;
+}
+.navbar {
+
+    background: rgba(248, 242, 242, 0.918);
+    position: relative;
+}
+
+.nav-item a{
+
+    text-decoration: none;
+    color: rgba(41, 35, 35, 0.801); 
+    
+}
+/* change navbar-toggler inside lines color (stroke) */
+.navbar span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    #color: white;
+  }
+
+  /* change navbar background on collapse */
+@media (max-width: 768px) {
+    nav.navbar {
+      #background: lightgray;
+    }
+    .nav-item a{
+
+        background-color:rgba(41, 35, 35, 0.801);
+        #margin-left:30px;
+        text-align: center;
+        color: white;
+        z-index: 1; 
+        
+    }
+  }
+.cover-page{
+    position: relative;
+    width: 100%;
+   height:80vh;
+   background: rgba(248, 242, 242, 0.918);
+   margin:0;
+    color: rgba(41, 35, 35, 0.801);
+}
+
+.container{
+    position:absolute;
+	width:100%;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+    #background: rgb(158, 69, 69);
+}
+
+.cover-title{
+    font-size: 60px;
+    font-weight: bold;
+}
