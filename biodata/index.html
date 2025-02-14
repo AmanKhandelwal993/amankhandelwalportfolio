@@ -1,604 +1,513 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <style type="text/css">
-        ol {
-            margin: 0;
-            padding: 0
-        }
-        body {
-            margin: auto;
-            /* width: 640px;  */
-            /* padding: 50px; */
-            font-family: 'Lexend Deca', sans-serif; 
-            color: #2E475D;    
-        }
-        table td,
-        table th {
-            padding: 0
-        }
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        .c3 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 18.8pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        .c11 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 191.2pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        .c5 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 258pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        .c6 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 20.2pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-        .c16 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 258.8pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c12 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 188.2pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c10 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 193.5pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c9 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 255.8pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c2 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 11pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c8 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            orphans: 2;
-            widows: 2;
-            text-align: left;
-            height: 11pt
-        }
-
-        .c13 {
-            padding-top: 20pt;
-            padding-bottom: 6pt;
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: center
-        }
-
-        .c17 {
-            color: #000000;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 21pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c0 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 12pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c15 {
-            color: #000000;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 12pt;
-            font-family: "Arial";
-            font-style: normal
-        }
-
-        .c18 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.15;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c14 {
-            border-spacing: 0;
-            border-collapse: collapse;
-            margin-right: auto
-        }
-
-        .c4 {
-            padding-top: 0pt;
-            padding-bottom: 0pt;
-            line-height: 1.0;
-            text-align: left
-        }
-
-        .c19 {
-            background-color: #ffffff;
-            max-width: 468pt;
-            padding: 72pt 72pt 72pt 72pt
-        }
-
-        .c1 {
-            height: 22.4pt
-        }
-
-        .c7 {
-            height: 0pt
-        }
-
-        .title {
-            padding-top: 0pt;
-            color: #000000;
-            font-size: 26pt;
-            padding-bottom: 3pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .subtitle {
-            padding-top: 0pt;
-            color: #666666;
-            font-size: 15pt;
-            padding-bottom: 16pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        li {
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Arial"
-        }
-
-        p {
-            margin: 0;
-            color: #000000;
-            font-size: 11pt;
-            font-family: "Arial"
-        }
-
-        h1 {
-            padding-top: 20pt;
-            color: #000000;
-            font-size: 20pt;
-            padding-bottom: 6pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h2 {
-            padding-top: 18pt;
-            color: #000000;
-            font-size: 16pt;
-            padding-bottom: 6pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h3 {
-            padding-top: 16pt;
-            color: #434343;
-            font-size: 14pt;
-            padding-bottom: 4pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h4 {
-            padding-top: 14pt;
-            color: #666666;
-            font-size: 12pt;
-            padding-bottom: 4pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h5 {
-            padding-top: 12pt;
-            color: #666666;
-            font-size: 11pt;
-            padding-bottom: 4pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        h6 {
-            padding-top: 12pt;
-            color: #666666;
-            font-size: 11pt;
-            padding-bottom: 4pt;
-            font-family: "Arial";
-            line-height: 1.15;
-            page-break-after: avoid;
-            font-style: italic;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-    </style>
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body class="c19 doc-content">
-<centre>
-    <h1 class="c13" id="h.v1ivervu8erc"><span class="c17">BIO-DATA</span></h1>
-    <p class="c8"><span class="c2"></span></p>
-    <p class="c8"><span class="c2"></span></p>
-    <p class="c18"><span class="c15">Personal Details -</span></p>
-    <p class="c8"><span class="c0"></span></p><a id="t.d9d02c231a4909dda79fce9a542d2dd79f4a5af5"></a><a id="t.0"></a>
-    <table class="c14">
-        <tr class="c1">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Name</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Aman Khandelwal</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">D.O.B.</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">3-April-1998</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Birth Time</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">17:29</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Birth Place</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Alwar</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Occupation</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Senior DevOps Engineer</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Company Name</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">To The New, Noida</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Height</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">5&rsquo; 10&rsquo;&rsquo;</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Education</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">B. Tech (Computer Science)</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Complex</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Fair</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Paternal Gotra</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Vaidh</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c10" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Maternal Gotra</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c9" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Dangayach</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c8"><span class="c0"></span></p>
-    <p class="c18"><span class="c15">Family Background Details -</span></p>
-    <p class="c8"><span class="c0"></span></p><a id="t.64506f8ca3dedc8f315b3c6cb6eecbc72cc8e6f1"></a><a id="t.1"></a>
-    <table class="c14">
-        <tr class="c7">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Father</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c5" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Sunil Khandelwal</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Occupation</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c5" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Business</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Mother</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c5" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Dimple Khandelwal</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Occupation</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c5" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Housewife</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Brother</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c5" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Vipul Khandelwal (B. Tech)</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c8"><span class="c0"></span></p>
-    <p class="c18"><span class="c15">Contact Details - </span></p>
-    <p class="c8"><span class="c0"></span></p><a id="t.92c0f0e962efdf2874bad09fbe751dca40d19c38"></a><a id="t.2"></a>
-    <table class="c14">
-        <tr class="c7">
-            <td class="c12" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Address</span></p>
-            </td>
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c16" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Girraj Darshan Colony, Daudpur, Alwar, Raj.</span></p>
-            </td>
-        </tr>
-        <tr class="c7">
-            <td class="c12" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">Contact</span></p>
-            </td>
-            <td class="c6" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">:</span></p>
-            </td>
-            <td class="c16" colspan="1" rowspan="1">
-                <p class="c4"><span class="c0">8290214010</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c8"><span class="c2"></span></p>
-</centre>
-</body>
+<body class="index-page">
 
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>Personal Details</span></a></li>
+        <li><a href="#family"><i class="bi bi-file-earmark-text navicon"></i><span>Family Details</span></a></li>
+        <!-- <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li> -->
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/ak-hero-bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Aman Khandelwal</h2>
+            <!-- <p>I'm <span class="typed" data-typed-items="Engineer"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p> -->
+            <!-- <div class="social-links">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Personal Details</h2>
+        <!-- <p>Personal Details</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-3">
+            <img src="assets/img/ak-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-9 content">
+            <!-- <h2>Personal Details</h2> -->
+            <!-- <p class="fst-italic py-1"> </p> -->
+            <!-- <p class="fst-italic py-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Aman Khandelwal</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 April 1998</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birth Place:</strong> <span>Alwar, Rajasthan</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birth Time:</strong> <span>17:29</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Occupation:</strong> <span>Senior DevOps Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Company Name:</strong> <span>CloudKeeper, Noida</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Height:</strong> <span>5' 10"</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <span>B. Tech (C.S.)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Complex:</strong> <span>Fair</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Paternal Gotra:</strong> <span>Vaidh</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Maternal Gotra:</strong> <span>Dangayach</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Annual Package:</strong> <span>30 Lacs</span></li>
+                </ul>
+              </div>
+            </div>
+
+
+            
+            <!-- <p class="py-3">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- About Section -->
+    <section id="family" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Family Details</h2>
+        <p style="text-align: justify">
+          Our family currently lives in Alwar, with roots in Govindgarh, Alwar. We are well known as Chatarpuriya’s around Govindgarh. My father and his elder brother live in Alwar, while his other four brothers live in Govindgarh. My father runs a business in Krishi Upaj Anaj Mandi, Barodameo, Alwar.
+            <br>
+            
+            My mother's family belongs to Kumher, Bharatpur. They are well known as Sitare Vale around that area. My Maternal Grandfather is a retired Govt. School Principal.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <!-- <div class="col-lg-3">
+            <img src="assets/img/ak-profile-img.jpg" class="img-fluid" alt="">
+          </div> -->
+          <!-- <p class="py-1 " style="text-align: justify">
+          
+          </p> -->
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-12 content">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Father:</strong> <span>Sunil Khandelwal</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mother:</strong> <span>Dimple Khandelwal</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Brother:</strong> <span>Vipul Khandelwal</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Father's Occupation:</strong> <span>Business</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mother's Occupation:</strong> <span>Housewife</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Brother's Occupation:</strong> <span>DevOps Engineer</span></li>
+                </ul>
+              </div>
+            </div>
+
+
+            
+            <!-- <p class="py-3">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Family Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Web</li>
+          </ul> -->
+          <!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Hollywood</h4>
+                <p>Los Angeles</p> -->
+                <a href="assets/img/ak-portfolio/3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Universal Studio</h4>
+                <p>Los Angeles</p> -->
+                <a href="assets/img/ak-portfolio/4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Venice Beach</h4>
+                <p>Santa Monica</p> -->
+                <a href="assets/img/ak-portfolio/5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Hollywood</h4>
+                <p>Los Angeles</p> -->
+                <a href="assets/img/ak-portfolio/6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/15.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/15.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Wax Museum, Walk Of Fame</h4>
+                <p>Los Angeles</p> -->
+                <a href="assets/img/ak-portfolio/2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Amer Fort</h4>
+                <p>Jaipur</p> -->
+                <a href="assets/img/ak-portfolio/1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/10.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/11.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/11.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/12.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/13.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/13.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/14.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/14.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/ak-portfolio/16.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/16.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/ak-portfolio/17.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/17.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/18.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/18.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/ak-portfolio/19.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/ak-portfolio/19.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Details</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Girraj Darshan Colony, Daudpur, Alwar, Raj.</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Father's Phone No.</h3>
+                <p>8290214010</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Aman Khandelwal</h3>
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+         
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div> -->
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
